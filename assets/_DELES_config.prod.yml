@@ -1,0 +1,22 @@
+stages:
+  PROD:
+    endpoint: https://api.opentransportdata.swiss/ojp2020
+    authorization: eyJvcmciOiI2NDA2NTFhNTIyZmEwNTAwMDEyOWJiZTEiLCJpZCI6Ijk0YTFhNjExYjM5ZjQ4MWNiMGI5MjFiNTgyNmM1ZGFjIiwiaCI6Im11cm11cjEyOCJ9
+  PROD-LB:
+    endpoint: https://tools.odpch.ch/tmp/cors-proxy?url=https://ojp.lb.prod.ojp.odpch.ch/ojp/ojp
+    authorization: eyJvcmciOiI2NDA2NTFhNTIyZmEwNTAwMDEyOWJiZTEiLCJpZCI6Ijk0YTFhNjExYjM5ZjQ4MWNiMGI5MjFiNTgyNmM1ZGFjIiwiaCI6Im11cm11cjEyOCJ9
+  INT:
+    endpoint: https://odpch-api.clients.liip.ch/ojp-passiv-int
+    authorization: eyJvcmciOiI2M2Q4ODhiMDNmZmRmODAwMDEzMDIwODkiLCJpZCI6ImJkOTNmYzA1ZGMwYzQwM2Q4MWYzMmFhNWMxNWZjMjU2IiwiaCI6Im11cm11cjEyOCJ9
+  TEST:
+    endpoint: https://odpch-api.clients.liip.ch/ojp-test
+    authorization: eyJvcmciOiI2M2Q4ODhiMDNmZmRmODAwMDEzMDIwODkiLCJpZCI6ImZlYWJiMjEzZDcyZTRhYmM5N2RhYWJiZDM5YWZmZWIwIiwiaCI6Im11cm11cjEyOCJ9
+  LA Beta:
+    endpoint: https://api.opentransportdata.swiss/ojp-la-aktiv
+    authorization: eyJvcmciOiI2NDA2NTFhNTIyZmEwNTAwMDEyOWJiZTEiLCJpZCI6ImE5ZDFkYmI4YWVjMDRiYjFiZjA2ZmUyNmZmZTk2YTY2IiwiaCI6Im11cm11cjEyOCJ9
+  OJP-SI:
+    endpoint: https://dev.simo.si/OpenAPI/LinkingAlpsBetaPhase/OJP
+    authorization: NO_KEY
+  NOVA-INT:
+    endpoint: https://api.opentransportdata.swiss/ojpfare
+    authorization: eyJvcmciOiI2NDA2NTFhNTIyZmEwNTAwMDEyOWJiZTEiLCJpZCI6ImU2ZDUyMmU0ODM1NDQ0YmM5OWM3ZjQ4MzI2ZWYxNzI3IiwiaCI6Im11cm11cjEyOCJ9
