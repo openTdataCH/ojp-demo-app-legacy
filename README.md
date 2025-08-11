@@ -1,3 +1,9 @@
+# Updates 11.August 2025
+
+This repo is deprecated and replaced by https://github.com/openTdataCH/ojp-demo-app
+
+----
+
 # ojp-demo-app
 
 This repo hosts the production page and assets used by [ojp-demo-app-src](https://github.com/openTdataCH/ojp-demo-app-src) repo. 
